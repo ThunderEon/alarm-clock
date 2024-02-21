@@ -51,8 +51,8 @@ alarmBtn.addEventListener("click", () => {
   rington.pause();
 });
 
-const disableBtn = () => {
-  if (setAlarm) {
+const disableBtn = (alarmIsOff) => {
+  if (alarmIsOff) {
     content.classList.add("disable");
     alarmBtn.innerHTML = "clear alarm";
   } else {
