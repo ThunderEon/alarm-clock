@@ -47,6 +47,11 @@ body {
   color: #262627;
   padding: 0 30px;
   cursor: pointer;
+  
+}
+.disable{
+  pointer-events: none;
+  opacity: 0.5;
 }
 .controls select:focus {
   outline: 0;
