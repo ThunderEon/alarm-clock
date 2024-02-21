@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 1.1em;
+  background-color: #5596e6;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 380px;
+  height: 400px;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fffeff;
+  outline: 1px solid #bbb9b9cc;
+}
+
+.controls {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.controls select {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1em;
+  width: 150px;
+  height: 30px;
+  border: 0;
+  outline: 2px solid #746d6d;
+  border-radius: 5px;
+  color: #262627;
+  padding: 0 10px;
+}
+
+.controls select option {
+  color: #eee;
+  outline: 0;
+  border: 0;
+  background-color: #82a7a7;
+}
+
+.container button {
+  all: unset;
+  padding: 5px 100px;
+  font-size: 1.3em;
+  border-radius: 5px;
+  outline: 1px solid #bbb9b9cc;
+  background-color: #5596e6;
+  color: white;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.container button:hover {
+  background-color: #34547a;
+}
